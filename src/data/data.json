@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the difference between a functional and a class component?",
+    "answer": "Functional components are simpler and don't have lifecycle methods, while class components can have lifecycle methods."
+  },
+  {
+    "question": "What is React Context?",
+    "answer": "A way to pass data through the component tree without having to pass props down manually at every level."
+  },
+  {
+    "question": "What is a pure component?",
+    "answer": "A component that only re-renders when its props or state change."
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "answer": "A lightweight copy of the real DOM that React uses to optimize updates by minimizing direct DOM manipulation."
+  },
+  {
+    "question": "What are React hooks?",
+    "answer": "Functions that let you use state and other React features in functional components (e.g., useState, useEffect)."
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JavaScript XML - a syntax extension that allows writing HTML-like code in JavaScript files."
+  },
+  {
+    "question": "What is the purpose of the useEffect hook?",
+    "answer": "To perform side effects in functional components (data fetching, subscriptions, DOM manipulation)."
+  },
+  {
+    "question": "What is prop drilling?",
+    "answer": "The process of passing props through multiple levels of components to reach a deeply nested component."
+  },
+  {
+    "question": "What is the difference between state and props?",
+    "answer": "State is internal and managed by the component, while props are external and passed to the component."
+  },
+  {
+    "question": "What is React Router?",
+    "answer": "A library for handling navigation and routing in React applications."
+  },
+  {
+    "question": "What is the key prop used for in React lists?",
+    "answer": "To help React identify which items have changed, been added, or removed (should be unique among siblings)."
+  },
+  {
+    "question": "What is Redux?",
+    "answer": "A predictable state container for JavaScript apps that helps manage global application state."
+  },
+  {
+    "question": "What are higher-order components (HOC)?",
+    "answer": "Functions that take a component and return a new component with additional functionality."
+  },
+  {
+    "question": "What is the purpose of the useCallback hook?",
+    "answer": "To memoize functions and prevent unnecessary re-renders of child components."
+  },
+  {
+    "question": "What is the difference between controlled and uncontrolled components?",
+    "answer": "Controlled components have form data handled by React state, while uncontrolled components use the DOM directly."
+  },
+  {
+    "question": "What is the children prop in React?",
+    "answer": "A special prop that contains the content between a component's opening and closing tags."
+  },
+  {
+    "question": "What is the purpose of the useRef hook?",
+    "answer": "To create mutable references that persist across renders without causing re-renders."
+  },
+  {
+    "question": "What is server-side rendering (SSR) in React?",
+    "answer": "Rendering React components on the server to send HTML to the browser for better SEO and performance."
+  },
+  {
+    "question": "What are React fragments?",
+    "answer": "A way to group multiple elements without adding extra nodes to the DOM (<></> or <Fragment></Fragment>)."
+  },
+  {
+    "question": "What is the purpose of the useMemo hook?",
+    "answer": "To memoize expensive calculations and optimize performance by caching results."
+  }
+]
